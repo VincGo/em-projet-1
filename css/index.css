@@ -1,0 +1,63 @@
+/* SEARCH */
+#formSearch {
+	text-align: center;
+}
+
+#formSearch h1 {
+	margin: 1.5em 0;
+}
+
+#search {
+	width: 300px;
+	border: 0;
+	border: 1px solid;
+	margin: 0;
+	margin-right: 30px;
+}
+
+#order {
+	margin-right: 30px;
+	width: 100px;
+	padding: 10px 10px;
+	border: 1px solid;
+}
+
+/* RESULT */
+#listAlbum {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2.5em;
+}
+
+#listAlbum div {
+	border: 1px solid lightgray;
+	margin: 20px;
+	text-align: center;
+}
+
+#listAlbum img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+#listAlbum button {
+	width: 100px;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1200px){
+	main{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#search, #order{
+		margin: 0;
+	}
+
+	#search {
+		width: auto;
+	}
+}

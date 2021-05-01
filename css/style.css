@@ -1,0 +1,131 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* NAV BAR */
+nav {
+    background-color: black;
+}
+
+nav ul {
+	display: flex;
+	margin: 0
+}
+
+nav li {
+	margin-right: 100px;
+	padding: 30px 0;
+}
+
+nav a {
+	color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* BUTTON */
+
+.button-red  {
+	border: 1px solid #c71807;
+	background-color: #c71807;
+	color: white;
+	cursor: pointer;
+}
+
+.button-red:hover {
+	border: 1px solid #c71807;
+	background-color: white;
+	color: #c71807;
+}
+
+.button-light-blue  {
+	border: 1px solid #55bfe0;
+	background-color: #55bfe0;
+	cursor: pointer;
+}
+
+.button-light-blue:hover {
+	border: 1px solid #55bfe0;
+	background-color: white;
+}
+
+.button-light-blue:hover a {
+	color: #55bfe0;
+}
+
+.button-blue  {
+	border: 1px solid #3d8bcd;
+	background-color: #3d8bcd;
+	color: white;
+	cursor: pointer;
+}
+
+.button-blue:hover {
+	border: 1px solid #3d8bcd;
+	background-color: white;
+	color: #3d8bcd
+}
+
+.button-blue:hover a {
+	color: #3d8bcd;
+}
+
+.button-white  {
+	border-radius: 5px;
+	border: 1px solid;
+	background-color: white;
+}
+
+.button-white a {
+	color: black;
+}
+
+.button-white:hover  {
+	background-color: black;
+}
+
+.button-white:hover a {
+	color: white;
+}
+
+/* A */
+.color-white {
+	color: white;
+}
+
+/* SHADOW */
+.shadow {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+/* BORDER */
+.border {
+	border-radius: 5px;
+}
+
+/* PADDING */
+.p-m {
+	padding: 5px
+}
+
+.p-l {
+	padding: 10px 20px;
+}
+
+/* MARGIN */
+
+.ml-20 {
+	margin-left: 20px;
+}
+
+.mb-25 {
+	margin-bottom: 25px;
+}

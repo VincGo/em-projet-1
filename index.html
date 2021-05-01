@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>DeezWeb</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Deez'Web</a></li>
+            <li><a href="index.html">Recherche</a></li>
+            <li><a href="pages/favorites.html">Mes favoris</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formSearch">
+            <h1>Page de recherche</h1>
+            <!-- Form for research text + order-->
+            <input id="search" class="border p-l" type="text" placeholder="Recherche">
+            <select name="order" id="order" class="border">
+                <option value="ALBUM_ASC">Album</option>
+                <option value="ARTIST_ASC">Artiste</option>
+                <option value="TRACK_ASC">Titre</option>
+                <option value="RATING_ASC">Popularité</option>
+                <option value="RANKING">Rang</option>
+            </select>
+            <button id="searchButton" class="button-blue border shadow p-l">Recherche</button>
+        </div>
+
+        <!-- Result of the research -->
+        <div id="listAlbum">
+
+        </div>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

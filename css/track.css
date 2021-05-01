@@ -1,0 +1,18 @@
+#track {
+    width: 500px;
+    margin: auto;
+    text-align:center
+}
+
+#track section{
+    display: flex;
+    justify-content: center;
+}
+
+#track section div {
+    margin: 0 3em;
+}
+
+figure {
+    margin-top: 35px
+}
